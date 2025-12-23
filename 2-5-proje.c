@@ -12,9 +12,9 @@ struct Ogrenci
 };
 
 int main(){
-    struct Ogrenci *ogr = NULL; //Ogrenci türünde dinamik bir dizi oluşturmak için pointer tanımladık. Henüz öğrenci yok. Ogrenci sayısı başta bilinmediği için dinamik bellek yöntemi kullanıldı. 
+    struct Ogrenci *ogr = NULL; 
     struct Ogrenci gecici;
-    int n = 0; //Dizide 0 eleman var.
+    int n = 0;
     
     FILE *dosya1 = fopen("ogrenci.txt", "r");
     if (dosya1 == NULL)
@@ -36,11 +36,11 @@ int main(){
          gecici.soyad, 
          &gecici.ort, 
          &gecici.ales, 
-         &gecici.uds) != EOF) //fscanf ile struct diziyi oku. EOF=End Of File
+         &gecici.uds) != EOF)
     {
         if (n == 0)
         {
-            ogr = (struct Ogrenci *)malloc(sizeof(struct Ogrenci)); //Struct Ogrenci * => malloc'un dönderdiği adres struct Ogrenci * olarak kullanılır.
+            ogr = (struct Ogrenci *)malloc(sizeof(struct Ogrenci)); 
         }
 
         else
