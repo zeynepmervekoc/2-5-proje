@@ -27,6 +27,7 @@ int main(){
     if (dosya2 == NULL)
     {
         printf("kazanan.txt dosyasi olusturulamadi!\n");
+        fclose(dosya1);
         return 1;
     }
 
