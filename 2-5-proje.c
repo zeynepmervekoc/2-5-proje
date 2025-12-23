@@ -94,7 +94,7 @@ int main(){
     {
         fprintf(dosya2, "%-10s %-10s %-10.2f %-10.2f %-10.2f %-10.2f\n", 
         ogr[i].ad,
-        ogr[i].soyad,-
+        ogr[i].soyad,
         ogr[i].ort,
         ogr[i].ales,
         ogr[i].uds,
