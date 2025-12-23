@@ -1,0 +1,6 @@
+Ad         Soyad      Ortalama   ALES       UDS        Toplam    
+Fatma      Celik      -3.90      92.00      88.00      68.97     
+Buse       Eren       -3.85      91.00      87.00      68.21     
+Elif       Acar       -3.80      90.50      85.00      67.45     
+Ceren      Sahin      -3.75      89.00      83.00      66.19     
+Zeynep     Arslan     -3.60      88.00      80.00      64.90     
