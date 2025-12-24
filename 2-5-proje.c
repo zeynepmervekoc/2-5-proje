@@ -69,7 +69,7 @@ int main(){
         printf("Dosyada ogrenci bulunamadi\n");
         fclose(dosya1);
         fclose(dosya2);
-        return 0;
+        return 1;
     }
 
     for (int i = 0; i < n; i++)
