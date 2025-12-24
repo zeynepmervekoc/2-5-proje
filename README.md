@@ -17,5 +17,5 @@ Program, araştırma görevlisi adaylarının bilgilerini dosya üzerinden okuya
 3. Sonuçlar `kazanan.txt` dosyasına yazdırılır.
 
 ## 👩‍💻 Geliştiriciler
-- Zeynep Merve Koç  
+- Zeynep Merve Koç
 - Sehrı Gulıyeva
